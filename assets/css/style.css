@@ -672,7 +672,7 @@ body {
 /*-----------------------------------*\
   #BLOG
 \*-----------------------------------*/
-
+/* 
 .blog :is(.section-subtitle, .section-title, .section-text) { text-align: center; }
 
 .blog .section-text { margin-block: 20px 50px; }
@@ -702,7 +702,7 @@ body {
 }
 
 .blog-card .card-text { margin-block: 15px; }
-
+ */
 
 
 
@@ -710,7 +710,7 @@ body {
 /*-----------------------------------*\
   #NEWSLETTER
 \*-----------------------------------*/
-
+/* 
 .newsletter { background-color: var(--dark-orange); }
 
 .newsletter .img-holder {
@@ -740,11 +740,35 @@ body {
   font-family: var(--ff-oswald);
   font-weight: var(--fw-700);
   padding: 8px 20px;
+} */
+
+
+
+/*-----------------------------------*\
+  #CONTACT
+\*-----------------------------------*/
+
+.map-container {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 400px;
 }
 
 
+.contact .service-list {
+  margin-block-end: 20px;
+}
 
-
+.business-info {
+  margin-inline-start: 20px;
+  margin-block-end: 20px;
+}
 
 /*-----------------------------------*\
   #FOOTER
@@ -835,7 +859,7 @@ body {
 
 
 /*-----------------------------------*\
-  #MEDIA QUERISE
+  #MEDIA QUERIES
 \*-----------------------------------*/
 
 /**
@@ -853,7 +877,14 @@ body {
     padding-inline: 30px 60px;
   }
 
+  .business-info {
+    margin-inline-start: 20px;
+    margin-block-end: 20px;
+  }
 
+  .contact .service-list {
+    margin-block-end: 20px;
+  }
 
   /**
    * HEADER
